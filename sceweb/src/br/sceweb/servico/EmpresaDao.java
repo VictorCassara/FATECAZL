@@ -13,7 +13,7 @@ public class EmpresaDao {
 		try {
 			Connection conn = new FabricaDeConexoes().getConnection();
 			ps = conn.prepareStatement(
-					"INSERT INTO sceweb.empresa (cnpj, nomeDaEmpERsa, nomeFantasia, endereco, telefone) VALUES (?, ?, ? ,?, ?)");
+					"INSERT INTO sceweb.empresa (cnpj, nomeDaEmpresa, nomeFantasia, endereco, telefone) VALUES (?, ?, ? ,?, ?)");
 			ps.setString(1, empresa.getCnpj());
 			ps.setString(2, empresa.getNomeDaEmpresa());
 			ps.setString(3, empresa.getNomeFantasia());
@@ -42,6 +42,11 @@ public class EmpresaDao {
 			throw new RuntimeException(e);
 		}
 		return codigoRetorno;
+	}
+
+	public Empresa consultaEmpresa(String cnpj) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

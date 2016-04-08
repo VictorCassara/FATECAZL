@@ -15,8 +15,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="C:/Users/tecnico/workspace/eclipse-mars/sceweb/WebContent/WEB-INF/lib/joda-time-2.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/tecnico/workspace/eclipse-mars/sceweb/WebContent/WEB-INF/lib/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/tecnico/workspace/eclipse-mars/sceweb/WebContent/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tecnico/git/FATECAZL/sceweb/WebContent/WEB-INF/lib/joda-time-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tecnico/git/FATECAZL/sceweb/WebContent/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tecnico/git/FATECAZL/sceweb/WebContent/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
